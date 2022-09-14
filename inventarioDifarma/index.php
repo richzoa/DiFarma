@@ -20,6 +20,7 @@
 			<td><a href="productos/mostrar.php">Inventario</a></td>
 		</tr>
 	</table>
+	<a href='../paginaPrincipal.php'> volver</a>
 	<br>
 		<!--El footer que por lo general se le agregan los derechos de autor del sistema-->
 	<footer>

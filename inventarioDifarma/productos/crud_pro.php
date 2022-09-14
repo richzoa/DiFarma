@@ -1,6 +1,6 @@
 <?php 
 //include la clase Db
-require_once('C:\xampp\htdocs\inventarioDifarma\conexion.php');
+require_once('C:\xampp\htdocs\difarma-master\inventarioDifarma\conexion.php');
 
 	 class CrudProductos{
 	 	//constructor de la clase
