@@ -10,10 +10,8 @@ $consulta = mysqli_query($mysqli,$q);
 $array = mysqli_fetch_array($consulta);
 if ($array['contar']>0) {
 	$_SESSION['username'] = $usuario;
-	header("location: ../paginaPrincipal.php");
+	header("location: ../conexionInventario.php");
 } else {
 	echo "DATOS INCORRECTOS";
 }
-
-
 ?>

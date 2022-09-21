@@ -1,32 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title> Difarma</title>
-	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</head>
-<body background="https://i0.wp.com/uozzart.com/wp-content/uploads/2022/04/Biblioteca-di-Archeologia-e-Storia-dellarte-di-Roma.jpg?resize=768%2C475&ssl=1">
+<head> 
 	<center>
-	<HEADER style="background-color:#CACFD2">Bienvenido</HEADER>
-
-	<form action="logica/loguear.php" method="POST">
-		<input type="text" name="usuario" placeholder="digite usuario">
-		<br><br>
-		<input type="password" name="clave" placeholder="digite clave">
-		<br><br>
-		<button type="submit">Entrar</button>
-		</center>
-
-	</form>
-	<footer style="background-color:#CACFD2">
-		by RichardZoa
-	</footer>
-	</center>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+	<title>Difarma</title>
+</head>
+<body>
+	<section class="section-first">
+		<div class="curtain bg-gradient"></div>
+        	<div class="grid">
+			<div class="wrapper wrapper-first">
+			<div class="text-container">
+			<div class="img-container img-container-one">
+			</div>
+			<h1>DiFarma</h1>
+                <h4 class="sub-heading">La mejor opcion para todos</h4>
+                <p>Bienvenidos</p>
+				<br></br>
+				<form action="logica/loguear.php" method="POST">
+					<input class="caja" type="text" name="usuario" placeholder="Digite Usuario">
+					<input class="caja" type="password" name="clave" placeholder="Digite Clave">
+					<button class="btn-basic" type="submit">Ingresar</button>
+				</form>
+				</div>
+        	</div>
+    	</div>
+	</section>
+	<footer>
+        <div class="grid1">
+            <div class="wrapper wrapper-first">
+                <div class="footer-rrss-box">
+                    <div class="legal-links-box">
+                        <a href="#" class="legal-link-text">Copyright</a>
+                        <a href="#" class="legal-link-text">Privacy policy</a>
+                        <a href="#" class="legal-link-text">Terms and conditions</a>
+                    </div>
+                    <div class="rrss-box">
+                        <a href="#" class="rrss-link"><img src="./img/footer/facebook-icon.png"></a>
+                        <a href="#" class="rrss-link"><img src="./img/footer/instagram-icon.png"></a>
+                        <a href="https://www.twitter.com" class="rrss-link"><img src="./img/footer/twitter-icon.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

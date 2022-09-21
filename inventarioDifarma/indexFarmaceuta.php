@@ -22,13 +22,10 @@
 			<h1>DiFarma Inventary 2022</h1>
 			<br></br>
 			<tr>
-				<td><a href="productos/ingresarProducto.php">Ingresar producto</a></td>
+				<td><a href="productos/inventarioFarmaceuta.php">Inventario</a></td>
 			</tr>
-			<tr>
-				<td><a href="productos/inventario.php">Inventario</a></td>
-			</tr>
-				<form action="../login.php" method="POST">
-					<button href='../login.php' class="btn-basic">Salir</button>
+				<form action="../Login.php" method="POST">
+					<button href='../Login.php' class="btn-basic">Salir</button>
 				</form>
 				</div>
         	</div>

@@ -64,7 +64,5 @@
     public function setFecha_vencimientop($fecha_vencimientop){
         $this->fecha_vencimientop=$fecha_vencimientop;
     }
-    
-
  } 
  ?>
